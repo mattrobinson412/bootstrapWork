@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo, II</title>
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap/dist/css/bootstrap.css"></link>
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></link>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">LOGO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link disabled" href="#">Contact</a>
+              <a class="nav-item nav-link disabled" href="#">About Us</a>
+              <a class="nav-item nav-link disabled" href="#">Messages
+                <button type="button" class="btn btn-success p-0 m-1">
+                    <span class="badge">12</span>
+                  </button>
+              </a>
+            </div>
+          </div>
+    </nav>
+
+    <h1 class="display-6 p-3">Dashboard:</h1>
+
+    <div class="container-fluid">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Team</th>
+                <th scope="col">All-Star</th>
+                <th scope="col">Remove</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td scope="row">Steph</td>
+                <td>Warriors</td>
+                <td>Yes</td>
+                <td class="fa-stack">
+                    <i class="fas fa-square fa-stack-2x text-danger"></i>
+                    <i class="fas fa-trash-alt text-light fa-stack-1x"></i></td>
+                </tr>
+                <tr>
+                <td scope="row">LeBron</td>
+                <td>Cavaliers</td>
+                <td>Yes</td>
+                <td class="fa-stack">
+                    <i class="fas fa-square text-danger fa-stack-2x"></i>
+                    <i class="fas fa-trash-alt text-light fa-stack-1x"></i></td>
+                </tr>
+                <tr>
+                <td scope="row">Dwayne</td>
+                <td>Heat</td>
+                <td>Yes</td>
+                <td class="fa-stack">
+                    <i class="fas fa-square text-danger fa-stack-2x"></i>
+                    <i class="fas fa-trash-alt text-light fa-stack-1x"></i></td>
+                </tr>
+                <tr>
+                <td scope="row">Kobe</td>
+                <td>Lakers</td>
+                <td>Yes
+                    <span class="badge badge-warning">Last</span>      
+                </td>
+                <td class="fa-stack">
+                    <i class="fas fa-square text-danger fa-stack-2x"></i>
+                    <i class="fas fa-trash-alt text-light fa-stack-1x"></i></td>
+                </tr>
+                <tr>
+                <td scope="row">Isaiah</td>
+                <td>Celtics</td>
+                <td>Yes
+                    <span class="badge badge-success">First</span>
+                </td>
+                <td class="fa-stack">
+                    <i class="fas fa-square text-danger fa-stack-2x"></i>
+                    <i class="fas fa-trash-alt text-light fa-stack-1x"></i></td>
+                </tr>
+            </tbody>
+            </table>
+    </div>
+
+    <h2 class="p-3"><b>Todos:</b></h2>
+
+    <div class="container-fluid">
+        <div class="alert alert-success m-0" role="alert">
+        Feel good about Bootstrap
+        </div>
+        <div class="alert alert-info m-0" role="alert">
+        I was informed about Bootstrap
+        </div>
+        <div class="alert alert-warning m-0" role="alert">
+        Feel warned about Bootstrap
+        </div>
+        <div class="alert alert-warning m-0" role="alert">
+        Maybe I should read the docs...
+        </div>
+        <div class="alert alert-danger m-0" role="alert">
+        Danger zone
+        </div>
+        <div class="alert alert-danger m-0" role="alert">
+        I really should read the docs...
+        </div>
+    </div>
+
+
+
+
+</body>
+
+<script src="https://unpkg.com/jquery"></script>
+<script src="https://unpkg.com/popper"></script>
+<script src="https://unpkg.com/bootstrap"></script>
+
+</html>
